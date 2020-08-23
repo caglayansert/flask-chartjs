@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <title>World population</title>
+  <!-- <link rel="stylesheet" href="/flask-chartjs/static/css/style.css"> -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='/css/style.css') }}">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" charset="utf-8"></script>
+</head>
+
+
+ <style type="text/css" rel="stylesheet">
+ 	h1 {
+		 color:rebeccapurple
+	}
+ </style>
+<body>
+
+  <h1>World population over time</h1>
+  <p>Number of people (in millions) living on earth, the last 500 years</p>
+
+  <canvas id="myCanvas" height="80"></canvas>
+
+  <script src="/static/assets/index.js"></script>
+</body>
+
+</html>
